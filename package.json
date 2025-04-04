@@ -1,0 +1,25 @@
+{
+  "name": "big-bang-deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/startup-life/edu-devops-big-bang-deployment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/startup-life/edu-devops-big-bang-deployment/issues"
+  },
+  "homepage": "https://github.com/startup-life/edu-devops-big-bang-deployment#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0"
+  }
+}
