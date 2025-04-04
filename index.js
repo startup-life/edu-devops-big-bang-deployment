@@ -18,7 +18,7 @@ app.get('/users', (req, res) => {
     });
 });
 
-app.use(express.static('../frontend')); // 프론트엔드 정적 파일 제공
+app.use(express.static('./frontend')); // 프론트엔드 정적 파일 제공
 
 app.listen(port, () => {
     console.log(`Server running at port ${port}`);
